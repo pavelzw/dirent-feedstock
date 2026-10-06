@@ -12,7 +12,7 @@ source:
   sha256: a91662ee5243d2dae5aee7ed8527f95097afda517cc5cc7ca2699648a74a419c
 
 build:
-  number: 0
+  number: 1
   skip: not win
   script:
     - if not exist "%LIBRARY_INC%" mkdir "%LIBRARY_INC%"
