@@ -20,9 +20,8 @@ build:
 
 tests:
   - package_contents:
-      files:
-        exists:
-          - Library/include/dirent.h
+      include:
+        - dirent.h
 
 about:
   homepage: https://github.com/tronkko/dirent
